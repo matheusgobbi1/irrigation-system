@@ -1,0 +1,650 @@
+[
+    {
+        "id": "15e6e17451afcb18",
+        "type": "tab",
+        "label": "Fluxo 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e3e93718b5e0d56c",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0ec55f4029d204d7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "aa53ceca0e6546ba",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "700456a39f9e7cc5",
+        "type": "node-red-contrib-whatsapp-cmb-account",
+        "name": "Enviar para Whatsapp"
+    },
+    {
+        "id": "c6cf0e5661754894",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "d101e21e11da0ccb",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://us-east-1-1.aws.cloud2.influxdata.com/",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "c2bbdbbe12eac8da",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "c078e7a75a7f44888f87d82eb62e17b1.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "8ab76e3db09f2597",
+        "clientid": "node-red-client",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "teste/topic",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "8ab76e3db09f2597",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": true,
+        "alpnprotocol": ""
+    },
+    {
+        "id": "f5529d96f7c181c7",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "test/topic",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "Hello from MQTT Explorer.",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "f0b38fb94b0858f4",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "c078e7a75a7f44888f87d82eb62e17b1.s1.eu.hivemq.cloud",
+        "port": "8883",
+        "tls": "",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": true,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "ccdf9748d1109862",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://us-east-1-1.aws.cloud2.influxdata.com/",
+        "timeout": "10",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "732cbb1c53ea4821",
+        "type": "inject",
+        "z": "15e6e17451afcb18",
+        "name": "Buscar OpenWeather",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "300",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 2000,
+        "wires": [
+            [
+                "c4e52b2a9b01002a"
+            ]
+        ]
+    },
+    {
+        "id": "c4e52b2a9b01002a",
+        "type": "http request",
+        "z": "15e6e17451afcb18",
+        "name": "Requisição OpenWeather",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo,BR&appid=35c66a9fea068fe6943a4a58cfd1674b&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 410,
+        "y": 2000,
+        "wires": [
+            [
+                "544ace8f88957bf2"
+            ]
+        ]
+    },
+    {
+        "id": "544ace8f88957bf2",
+        "type": "function",
+        "z": "15e6e17451afcb18",
+        "name": "Processar OpenWeather",
+        "func": "let payload = typeof msg.payload === 'string' ? JSON.parse(msg.payload) : msg.payload;\n\nif (payload && payload.main) {\n    // Extraindo apenas as informações desejadas\n    msg.payload = {\n        temperature: payload.main.temp,        // Temperatura\n        humidity: payload.main.humidity,      // Umidade\n        soilHumidity: Math.floor(Math.random() * (50 - 10 + 1) + 10) // Umidade do solo simulada\n    };\n    return msg;\n} else {\n    // Retornar erro caso o payload não contenha os dados esperados\n    node.warn(\"Payload inválido ou incompleto: \" + JSON.stringify(payload));\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 2000,
+        "wires": [
+            [
+                "ea28b0b9fa1d364c"
+            ]
+        ]
+    },
+    {
+        "id": "ea28b0b9fa1d364c",
+        "type": "switch",
+        "z": "15e6e17451afcb18",
+        "name": "",
+        "property": "payload.main.humidity",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "30",
+                "vt": "num"
+            },
+            {
+                "t": "gte",
+                "v": "30",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 2160,
+        "wires": [
+            [
+                "fb9153c4c03621f1"
+            ],
+            [
+                "79690f4e8a7a4cc8"
+            ]
+        ]
+    },
+    {
+        "id": "97b54ec469c1d562",
+        "type": "mqtt out",
+        "z": "15e6e17451afcb18",
+        "name": "",
+        "topic": "irrigation/control",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aa53ceca0e6546ba",
+        "x": 1240,
+        "y": 2180,
+        "wires": []
+    },
+    {
+        "id": "79690f4e8a7a4cc8",
+        "type": "change",
+        "z": "15e6e17451afcb18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "desligar ",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 2240,
+        "wires": [
+            [
+                "97b54ec469c1d562"
+            ]
+        ]
+    },
+    {
+        "id": "fb9153c4c03621f1",
+        "type": "change",
+        "z": "15e6e17451afcb18",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "ligar",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 2120,
+        "wires": [
+            [
+                "97b54ec469c1d562"
+            ]
+        ]
+    },
+    {
+        "id": "6a2f3701778284e9",
+        "type": "http request",
+        "z": "e3e93718b5e0d56c",
+        "name": "Obter Clima ",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://api.openweathermap.org/data/2.5/weather?q=Sao%20Paulo,BR&appid=35c66a9fea068fe6943a4a58cfd1674b&units=metric",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 2370,
+        "y": 180,
+        "wires": [
+            [
+                "ebccd4674515059c"
+            ]
+        ]
+    },
+    {
+        "id": "ebccd4674515059c",
+        "type": "function",
+        "z": "e3e93718b5e0d56c",
+        "name": "Processar Dados ",
+        "func": "// Verifica se os dados vêm do sensor de umidade do solo ou da API do clima\nif (msg.topic === \"sensor/soil_moisture\") {\n    // Salva a umidade do solo no contexto\n    context.set(\"soilMoisture\", msg.payload.soilMoisture);\n    return null; // Não processa ainda, espera os dados da API do clima\n} else if (msg.topic === \"clima\") {\n    // Obtém os valores do clima da API\n    const weatherData = typeof msg.payload === \"string\" ? JSON.parse(msg.payload) : msg.payload;\n    const temp = parseFloat(weatherData.main.temp); // Certifique-se de que é numérico\n    const humidity = parseFloat(weatherData.main.humidity); // Certifique-se de que é numérico\n    const rain = parseFloat(weatherData.rain ? weatherData.rain[\"1h\"] || 0 : 0); // Previsão de chuva (última hora)\n\n    // Recupera o valor da umidade do solo armazenado no contexto\n    const soilMoisture = context.get(\"soilMoisture\");\n    if (soilMoisture === undefined) {\n        node.warn(\"Aguardando dados do sensor de umidade do solo...\");\n        return null; // Só processa quando ambos os dados estão disponíveis\n    }\n\n    // Normaliza os valores\n    const normalizedSoilMoisture = Math.round(soilMoisture); // Assume que o valor já está em %\n\n    const normalizedRain = Math.round(rain * 100); // Chuva: 0-100%\n\n    // Determina o comando com base nos dados\n    let command;\n\n    // Prioridade para ligar se solo estiver extremamente seco (< 20%)\n    if (normalizedSoilMoisture < 20) {\n        command = \"ligar\";\n    } else if (normalizedRain > 70 || normalizedSoilMoisture > 60) {\n        // Desativa se houver previsão de chuva (> 70%) ou solo úmido (> 60%)\n        command = \"desligar\";\n    } else if (temp > 30 && humidity < 40 && normalizedSoilMoisture < 30) {\n        // Ativa se estiver quente, seco e solo estiver seco (< 30%)\n        command = \"ligar\";\n    } else {\n        // Padrão\n        command = \"desligar\";\n    }\n\n    // Constrói o payload para enviar\n    msg.payload = {\n        temp: temp, \n        humidity: humidity, \n        rain: rain, \n        soilMoisture: soilMoisture, \n        normalizedSoilMoisture: normalizedSoilMoisture,\n        command: command\n    };\n\n    // Atualiza o status do nó no Node-RED\n    node.status({ fill: \"blue\", shape: \"dot\", text: `Comando: ${command}` });\n\n    return msg;\n} else {\n    node.warn(`Tópico desconhecido: ${msg.topic}`);\n    return null;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 2570,
+        "y": 180,
+        "wires": [
+            [
+                "4310c4bbdb7158e4",
+                "18be0487d2fb9b14"
+            ]
+        ]
+    },
+    {
+        "id": "4310c4bbdb7158e4",
+        "type": "switch",
+        "z": "e3e93718b5e0d56c",
+        "name": "Interruptor ",
+        "property": "payload.command",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "ligar",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "desligar",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 2290,
+        "y": 340,
+        "wires": [
+            [
+                "c92d485e881be991",
+                "523a58817a7c8741"
+            ],
+            [
+                "ba8b59b1916c17e1",
+                "eb9e9a2756268fa8"
+            ]
+        ]
+    },
+    {
+        "id": "c92d485e881be991",
+        "type": "mqtt out",
+        "z": "e3e93718b5e0d56c",
+        "name": "",
+        "topic": "irrigation/control",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c6cf0e5661754894",
+        "x": 2560,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ba8b59b1916c17e1",
+        "type": "mqtt out",
+        "z": "e3e93718b5e0d56c",
+        "name": "",
+        "topic": "irrigation/control",
+        "qos": "0",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "aa53ceca0e6546ba",
+        "x": 2560,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b5fca258a5078d71",
+        "type": "mqtt in",
+        "z": "e3e93718b5e0d56c",
+        "name": "",
+        "topic": "sensor/soil_moisture",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "c6cf0e5661754894",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 2350,
+        "y": 60,
+        "wires": [
+            [
+                "ebccd4674515059c"
+            ]
+        ]
+    },
+    {
+        "id": "98b9fce2d318f3a2",
+        "type": "inject",
+        "z": "e3e93718b5e0d56c",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "30",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "clima",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 2220,
+        "y": 180,
+        "wires": [
+            [
+                "6a2f3701778284e9"
+            ]
+        ]
+    },
+    {
+        "id": "eb9e9a2756268fa8",
+        "type": "debug",
+        "z": "e3e93718b5e0d56c",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2720,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "523a58817a7c8741",
+        "type": "debug",
+        "z": "e3e93718b5e0d56c",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 2720,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "18be0487d2fb9b14",
+        "type": "influxdb out",
+        "z": "e3e93718b5e0d56c",
+        "influxdb": "ccdf9748d1109862",
+        "name": "Influx",
+        "measurement": "irrigation_data_v2",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "database",
+        "precisionV18FluxV20": "ms",
+        "retentionPolicyV18Flux": "",
+        "org": "mackenzie",
+        "bucket": "irrigation_system",
+        "x": 2750,
+        "y": 120,
+        "wires": []
+    }
+]
